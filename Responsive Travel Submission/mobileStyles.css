@@ -1,0 +1,95 @@
+
+/*
+Details of the various sections on the webpage to use for the responsive design:
+
+Column1, 2 and 3 for the pictures and headers to them
+Text-group for the text section of the web page
+*/
+
+
+
+@media screen and (max-width:998px) {
+  body
+  {
+    background-image: url("background.jpg")
+  }
+  .container
+  {
+    background-color: ivory;
+  }
+  .column1, .column2, .column3
+  {
+    width: 100%;
+    margin: auto;
+  }
+  .text-group
+  {
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+  }
+  h2
+  {
+    text-shadow: 1pt 1pt grey;
+    text-align: center;
+    border-bottom: 1pt solid black;
+  }
+  img
+  {
+    align-items: center;
+  }
+  .main-set
+  {
+    width: 100%;
+    border: solid black 1px;
+    border-right: none;
+    font-size: 11pt;
+  }
+  header{
+    background-color: #4f2937;
+    color: blue;
+    font-style: italic;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:568px) {
+  body{
+    background-image: url("onyx_cave.jpg")
+  }
+  .container
+  {
+    background-color: #4f2937;
+  }
+  .column1
+    {
+    width: 100%;
+    }
+  .column2, .column3
+  {
+    width: 100%;
+  }
+  .text-group
+  {
+    border: none;
+    display: block;
+    text-align: center;
+  }
+  .bonus-text-1
+  {
+    display:block;
+    font-size: 12pt;
+    background-color: #bcc2c1;
+  }
+  header{
+    background-color: #acc4ec;
+    font-size: 24pt;
+    font-style: normal;
+  }
+  h2{
+    border-bottom: none;
+  }
+}

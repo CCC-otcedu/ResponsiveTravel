@@ -1,0 +1,120 @@
+
+/*Web page design color scheme for the tourism:
+- light sky blue = #acc4ec
+- grey = #bcc2c1
+- dark maroon = #4f2937
+- darker shade of blue = #547cbc
+
+
+
+/* Section detailing visuals for the main body of the travel web page */
+header{
+  padding: 50px 20px;
+  font-size: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px black;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  text-align: center;
+  background-color: #547cbc;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 14pt;
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+body{
+  background-image: url("quigley_castle.jpg");
+  font-family: Merriweather, serif;
+  font-size: 12pt;
+  color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: outside;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+li{
+  font-weight: bolder;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+}
+
+p{
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+
+/* Section detailing visuals on the sections of the parts for the page */
+
+.container{
+  margin:auto;
+  background-color: #bcc2c1;
+  max-width: 90%;
+  border-right: none;
+  border-left: solid 1px black;
+}
+
+.columns{
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5;
+  float: left;
+}
+
+.column1{
+  float: left;
+  margin:auto;
+}
+
+.column2{
+  float: left;
+  margin:auto;
+}
+
+.column3{
+  float: left;
+  margin:auto;
+}
+
+.main-set{
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+}
+
+.text-group{
+  width: 100%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.bonus-text-1
+{
+  display:none;
+  float: none;
+  align-self: center;
+  border: solid 1px black;
+  background-color: #547cbc;
+}
+
+
+.clearfix:after { content: ""; display: table;clear: both; }
